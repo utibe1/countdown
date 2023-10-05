@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  font-size: 20px;
+  background-color: #fff;
+  padding: 10px 25px;
+}
+
+#date-field {
+  width: 40%;
+  padding: 10px 30px;
+  border: 2px solid burlywood;
+}
+* h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 3rem;
+  color: #fff;
+}
+.coming-soon {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+}
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+  color: #fff;
+  font-size: 3rem;
+}
+
+h4 {
+  color: #fff;
+  font-size: 2rem;
+}
